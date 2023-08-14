@@ -1,0 +1,11 @@
+<div class="dog-cards-container">
+  <mat-card *ngFor="let dog of dogs" class="dog-card">
+    <div class="dog-cards">
+      <img mat-card-xl-image src="{{ dog.image.url }}" />
+      <div class="card-content">
+        <mat-card-title>{{ dog.name }}</mat-card-title>
+        <mat-card-subtitle>R$ {{ dog.life_span }}</mat-card-subtitle>
+      </div>
+    </div>
+  </mat-card>
+</div>
