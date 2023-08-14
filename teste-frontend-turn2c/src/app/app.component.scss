@@ -1,0 +1,39 @@
+.toolbar-container {
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.filter-breed {
+  border-radius: 8px;
+  height: 24px;
+  left: 24px;
+  top: 16px;
+  width: 232px;
+}
+
+.span-raca {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  margin-right: 5px;
+  text-align: left;
+}
+
+select {
+  background-color: #DDDDDD;
+  border: none;
+  border-radius: 8px;
+  color: #000000;
+  font-size: 12px;
+  height: 24px;
+  font-weight: 400;
+  left: 70px;
+  letter-spacing: 0em;
+  line-height: 15px;
+  text-align: left;
+  top: 16px;
+  width: 186px;
+}
